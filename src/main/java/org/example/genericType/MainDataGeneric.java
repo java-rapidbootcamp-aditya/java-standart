@@ -3,7 +3,7 @@ package org.example.genericType;
 public class MainDataGeneric {
     public static void main(String[] args) {
         DataGeneric<String> data1 = new DataGeneric<String>();
-        data1.setData("Umi Rosidah");
+        data1.setData("Aditya Rifki");
         System.out.println("data1 Value Customer Name: "+ data1.getData());
 
         //data1.setData(1234567); => error
@@ -18,12 +18,12 @@ public class MainDataGeneric {
 
         DataGeneric<Product> data4 = new DataGeneric<Product>();
         //data4.setData(new Product("Ajinomoto",2500.00));
-        Product product1 = new Product("Obat Batuk",10000.0);
+        Product product1 = new Product("Obat Sakit",10000.0);
         data4.setData(product1);
         System.out.println("data4 Value "+ data4.getData());
 
         DataGeneric<Product> data5 = new DataGeneric<Product>();
-        Product product2 = new Product("Obat Jerawat",35000.0);
+        Product product2 = new Product("Obat Telinga",35000.0);
         data5.setData(product2);
         System.out.println("data4 Value "+ data5.getData());
 

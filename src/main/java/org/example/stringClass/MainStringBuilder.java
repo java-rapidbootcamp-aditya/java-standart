@@ -2,9 +2,9 @@ package org.example.stringClass;
 
 public class MainStringBuilder {
     public static void main(String[] args) {
-        String firstName = "Umi";
+        String firstName = "Mohammad";
         System.out.println("First Name "+ firstName);
-        String lastName = "Rosidah";
+        String lastName = "Aditya";
         System.out.println("Last Name "+ firstName);
 
         String namaLengkap = firstName +" "+lastName;

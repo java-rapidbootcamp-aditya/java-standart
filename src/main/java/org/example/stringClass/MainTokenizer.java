@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 
 public class MainTokenizer {
     public static void main(String[] args) {
-        String name = "Siti Fadillah Suppari Sukarno Hatta";
+        String name = " Lukas Wlker Enembe";
         StringTokenizer tokenizer = new StringTokenizer(name," ");
 
         List<String> names = new ArrayList<>();

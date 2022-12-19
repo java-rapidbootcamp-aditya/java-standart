@@ -3,11 +3,11 @@ package org.example.genericType;
 public class MainData {
     public static void main(String[] args) {
         Data data = new Data();
-        data.setData("Umi Rosidah");
+        data.setData("Aditya Rifki");
         System.out.println("data Value Nama        : "+ data.getData());
 
         Data data1 = new Data();
-        data1.setData("Tegal");
+        data1.setData("Papua");
         System.out.println("data Value Domisili    : "+ data1.getData());
 
         Data data2 = new Data();

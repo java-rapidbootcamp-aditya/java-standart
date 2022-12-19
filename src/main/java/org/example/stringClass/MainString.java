@@ -2,7 +2,7 @@ package org.example.stringClass;
 
 public class MainString {
     public static void main(String[] args) {
-        String name = "Umi Rosidah";
+        String name = "Mohammad Aditya";
         System.out.println("To Lower case "+name.toLowerCase());
         System.out.println("To Upper case "+name.toUpperCase());
         System.out.println("Length: "+ name.length());
